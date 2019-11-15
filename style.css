@@ -106,7 +106,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
+    background-color: #192a56;
 }
 
 li {
@@ -133,9 +133,14 @@ li a.active {
 nav {
     background-color: #f8f9fa!important;
 }
+nav ul li:not(.navbar-brand) {
+	line-height: 30px;
+	font-family: Helvetica, sans-serif;
+}
 .navbar-brand {
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 25px;
+	margin-right: 20px;
+	font-family: kabayan;
 }
 main {
     width: 100%;
@@ -186,20 +191,42 @@ main {
 	color: #192a56;
 }
 
-.gt-info {
+.gt-info-box {
     height: 50vh;
     width: 100%;
-    background-color: white;
+	background-color: white;
+	margin-right: 10%;
 }
 
-.gt-info h1 {
-    font-family: comforta;
-    text-align: center;
-    font-size: 35px;
-    line-height: 15vh;
-    font-weight: 700;
+.gt-info-content {
+	margin-left: 10%;
+	width: 80%;
+	height: 50vh;
 }
 
-.benefits-item {
-    text-align: center;
+.gt-info-content .header {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 50px;
+	font-family: helvetica, sans-serif;
+}
+
+.gt-info-content .title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 50px;
+	font-family: comforta;
+}
+.gt-info-box p {
+	margin-top: 10px;
+	line-height: 25px;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+}
+
+.gt-info-item img {
+	-webkit-box-shadow: 7px 10px 30px 3px rgba(0,0,0,0.14);
+	-moz-box-shadow: 7px 10px 30px 3px rgba(0,0,0,0.14);
+	box-shadow: 7px 10px 30px 3px rgba(0,0,0,0.14);
 }
