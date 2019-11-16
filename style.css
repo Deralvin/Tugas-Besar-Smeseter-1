@@ -365,15 +365,33 @@ main {
 	background-position: center center;
 }
 
+
 .card-image-side {
 	border-radius: 5px 0px 0px 5px;
 	width: 30%;
 	height: 100%;
-	background-image: url(image/hotel-bali-amankila.jpeg);
+	float: left;
+}
+
+.attractions-bali-1 {
+	background-image: url(image/attractions-bali-1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	float: left;
+}
+
+.attractions-bali-2 {
+	background-image: url(image/attractions-bali-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.attractions-bali-3 {
+	background-image: url(image/attractions-bali-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .card-content {
@@ -400,7 +418,7 @@ main {
 
 .card-content-side p {
 	margin-top: 30px;
-	line-height: 20px;
+	line-height: 27px;
 	text-align: left;
 }
 
