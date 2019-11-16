@@ -490,6 +490,17 @@ main {
 	padding-top: 220px;
 }
 
+.card-content-contact {
+	margin-left: 10%;
+	width: 80%;
+}
+
+.card-content-contact h1 {
+	font-size: 25px;
+	margin-top: 10px;
+	line-height: 25px;
+}
+
 .card-content h1, .card-content-side h1 {
 	font-size: 25px;
 	text-align: left;
@@ -524,4 +535,55 @@ main {
 .white-card h2 {
 	text-align: center;
 	padding-top: 100%;
+}
+
+.main {
+	margin-top: 100px;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.insert-box {
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.14);
+	border-radius: 3px;
+	padding: 20px;
+	font-family: comforta;
+}
+
+.insert-box h1 {
+	font-size: 30px;
+	font-weight: 800;
+	font-family: comforta;
+}
+
+input, textarea {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: transparent;
+	border:2px solid #186ebd;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
+}
+
+button {
+	width: 30%;
+	height: 50px;
+	background-color: #186ebd;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+button:hover {
+	background-color: #125796;
+	cursor: pointer;
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Go! Tourism</title>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html" class="navbar-brand">G!T</a></li>
+        <li><a href="bali.html">Bali</a></li>
+        <li><a href="bromo.html">Bromo</a></li>
+        <li><a href="magelang.html">Magelang</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div class="main">
+    <div class="insert-box">
+        <h1>City Form</h1>
+        <div class="row">
+            <div class="col-3"><span>City Name</span></div>
+            <div class="col-1">:</div>
+            <div class="col-8"><input type="text" name="city_name" id="city_name"></div>
+        </div>
+        <div class="row">
+            <div class="col-3">Content</div>
+            <div class="col-1">:</div>
+            <div class="col-8"><textarea name="content" id="content" cols="30" rows="10"></textarea></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div><div class="col-1"></div><div class="col-8">
+                <button onclick="addData()">Send</button>
+            </div>
+        </div>
+    </div>
+    <div class="white-card mt-20" style="margin-bottom: 20px; height: 200px;">
+        <div class="card-content-contact">
+            <h1 id="city_value"></h1>
+            <p id="content_value"></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function addData() {
+        document.getElementById("city_value").innerHTML = document.getElementById("city_name").value
+        document.getElementById("content_value").innerHTML = document.getElementById("content").value
+    }
+</script>
+</body>
+</html>
