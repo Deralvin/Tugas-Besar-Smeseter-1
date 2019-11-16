@@ -365,6 +365,33 @@ main {
 	background-position: center center;
 }
 
+.hotel-bromo-1 {
+	background-image: url(image/hotel-bromo-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bromo-2 {
+	background-image: url(image/hotel-bromo-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bromo-3 {
+	background-image: url(image/hotel-bromo-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bromo-4 {
+	background-image: url(image/hotel-bromo-4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 
 .card-image-side {
 	border-radius: 5px 0px 0px 5px;
@@ -389,6 +416,20 @@ main {
 
 .attractions-bali-3 {
 	background-image: url(image/attractions-bali-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.attractions-bromo-1 {
+	background-image: url(image/attractions-bromo-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.attractions-bromo-2 {
+	background-image: url(image/attractions-bromo-2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
