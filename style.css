@@ -171,6 +171,13 @@ main {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.banner-magelang {
+	background: url(image/buddha-1210622_1920.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 .content-full{
 	height: 100vh;
 	width: 100%;
@@ -314,7 +321,45 @@ main {
 	border-radius: 5px 5px 0px 0px;
 	width: 100%;
 	height: 200px;
-	background-image: url(image/hotel-bali-amankila.jpeg);
+}
+
+.hotel-bali-1 {
+	background-image: url(image/hotel-bali-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bali-2 {
+	background-image: url(image/hotel-bali-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bali-3 {
+	background-image: url(image/hotel-bali-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bali-4 {
+	background-image: url(image/hotel-bali-4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bali-5 {
+	background-image: url(image/hotel-bali-5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-bali-6 {
+	background-image: url(image/hotel-bali-6.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -366,4 +411,9 @@ main {
 
 .mt-20 {
 	margin-top: 20px;
+}
+
+.white-card h2 {
+	text-align: center;
+	padding-top: 100%;
 }
