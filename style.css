@@ -393,6 +393,34 @@ main {
 	background-position: center center;
 }
 
+.hotel-magelang-1 {
+	background-image: url(image/hotel-magelang-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-magelang-2 {
+	background-image: url(image/hotel-magelang-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-magelang-3 {
+	background-image: url(image/hotel-magelang-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hotel-magelang-4 {
+	background-image: url(image/hotel-magelang-4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .card-image-side {
 	border-radius: 5px 0px 0px 5px;
 	width: 30%;
@@ -430,6 +458,27 @@ main {
 
 .attractions-bromo-2 {
 	background-image: url(image/attractions-bromo-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.attractions-magelang-1 {
+	background-image: url(image/attractions-magelang-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.attractions-magelang-2 {
+	background-image: url(image/attractions-magelang-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.attractions-magelang-3 {
+	background-image: url(image/attractions-magelang-3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
