@@ -155,6 +155,13 @@ main {
 	background-attachment: fixed;
 	background-size: cover;
 }
+
+.banner-gallery{
+	background: url(image/gallery.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+
+}
 .banner-city{
 }
 .banner-bali {
@@ -311,7 +318,7 @@ main {
 .white-card {
 	width: 100%;
 	background-color: white;
-	height: 400px;
+	height: 450px;
 	border-radius: 5px;-webkit-box-shadow: 7px 10px 30px 3px rgba(0,0,0,0.14);
 	-moz-box-shadow: 7px 10px 30px 3px rgba(0,0,0,0.14);
 	box-shadow: 7px 10px 30px 3px rgba(0,0,0,0.14);
@@ -502,11 +509,11 @@ main {
 }
 
 .card-content h1, .card-content-side h1 {
-	font-size: 25px;
+	font-size: 20px;
 	text-align: left;
 	color: black;
 	margin-top: 10px;
-	line-height: 0px;
+	line-height: 20px;
 	font-weight: 600;
 	font-family: Helvetica, sans-serif;
 }
@@ -519,7 +526,7 @@ main {
 
 .card-content-side p {
 	margin-top: 30px;
-	line-height: 27px;
+	line-height: 20px;
 	text-align: left;
 }
 
@@ -587,3 +594,105 @@ button:hover {
 	background-color: #125796;
 	cursor: pointer;
 }
+
+.flat-table {
+	display: block;
+	font-family: sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 115%;
+	overflow: auto;
+	width: auto;
+  }
+  .flat-table th {
+	background-color: #273c75;
+	color: white;
+	font-weight: normal;
+	padding: 20px 30px;
+	text-align: center;
+  }
+  .flat-table td {
+	background-color: #eeeeee;
+	color: #6f6f6f;
+	padding: 20px 30px;
+  }
+
+  .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
+
+  @media only screen and (max-width: 1000px) {
+	.col-4{
+	  width: 50%;
+	}
+	.card-image-side{
+		float: left;
+	}
+  }
+
+  @media only screen and (max-width: 718px) {
+	.col-4{
+	  width: 100%; 
+	}
+	.white-card{
+		height: 600px;
+	}
+	.col-6{
+		width: 100%;
+	  }
+	  
+  }
+
+  @media only screen and (max-width:1100px){
+	  .col-5{
+		  width: 100%;
+	  }
+
+	  .col-5 img{
+		width: 100%;
+	}
+  }

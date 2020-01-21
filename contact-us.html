@@ -15,13 +15,26 @@
         <li><a href="bali.html">Bali</a></li>
         <li><a href="bromo.html">Bromo</a></li>
         <li><a href="magelang.html">Magelang</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact-us.html">Contact Us</a></li>
     </ul>
 </nav>
 
+
 <div class="main">
     <div class="insert-box">
-        <h1>City Form</h1>
+        <h1>Contact Form</h1>
+        <div class="row">
+            <div class="col-3"><span>Name</span></div>
+            <div class="col-1">:</div>
+            <div class="col-8"><input type="text" name="city_name" id="name"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"><span>Email</span></div>
+            <div class="col-1">:</div>
+            <div class="col-8"><input type="email" name="city_name" id="email"></div>
+        </div>
+
         <div class="row">
             <div class="col-3"><span>City Name</span></div>
             <div class="col-1">:</div>
@@ -34,7 +47,7 @@
         </div>
         <div class="row">
             <div class="col-3"></div><div class="col-1"></div><div class="col-8">
-                <button onclick="addData()">Send</button>
+                <button>Send</button>
             </div>
         </div>
     </div>
@@ -45,12 +58,5 @@
         </div>
     </div>
 </div>
-
-<script>
-    function addData() {
-        document.getElementById("city_value").innerHTML = document.getElementById("city_name").value
-        document.getElementById("content_value").innerHTML = document.getElementById("content").value
-    }
-</script>
 </body>
 </html>
